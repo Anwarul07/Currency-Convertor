@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"); /* Poppins FonTS*/
+
+.flex {
+  display: flex;
+}
+.evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.around {
+  display: flex;
+  justify-content: space-around;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.m10 {
+  margin: 10px;
+}
+.p10 {
+  padding: 10px;
+}
+.my20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mx20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.py20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.px20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.list-none {
+  list-style: none;
+}.text-dec{
+    text-decoration: none;
+}
+.purple {
+  color: rgb(117, 83, 211);
+}
+.m-auto {
+  margin: auto;
+}
+.grey {
+  color: rgb(181, 179, 179);
+}
+.bold{
+    font-weight: bolder;
+}

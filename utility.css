@@ -3,6 +3,10 @@
 .flex {
   display: flex;
 }
+.column{
+  display: flex;
+  flex-direction: column;
+}
 .evenly {
   display: flex;
   justify-content: space-evenly;
@@ -21,6 +25,9 @@
 }
 .m10 {
   margin: 10px;
+}
+.ml10{
+  margin-left: 10px;
 }
 .p10 {
   padding: 10px;

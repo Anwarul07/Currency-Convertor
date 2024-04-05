@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <nav class="my20 px20 around bold">
+        <nav class="px20 around bold">
             <div class="logo">Convert $</div>
             <ul class="flex">
                 <a href="/">
@@ -28,6 +28,58 @@
     </header>
 
     <main>
+
+        <h1 class="center">Choose a Currency to convert</h1>
+        <form class="column" action="/action.php" method="get">
+
+            <label class="ml10" for="currency">Choose a Quantity : </label>
+
+            <input class="p10 m10" type="number" name="quantity">
+            <label class="ml10" for="currency">
+                Choose the Currency
+            </label>
+            <select class="p10 m10" name="currency">
+                <option value="INR">India Rupees</option>
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+            </select>
+
+            <input class="m10 p10" type="submit" value="Submit" />
+        </form>
+
+        <h3 class="m10">Results</h3>
+        <div class="ouput center">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Column1</th>
+                        <th>Column2</th>
+                        <th>Column3</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data2</td>
+                    </tr>
+                    <tr>
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
 
     </main>
 

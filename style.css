@@ -8,6 +8,8 @@ nav {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: rgb(113, 109, 96);
+  padding: 23px;
 }
 nav ul li {
   list-style-type: none;
@@ -15,12 +17,23 @@ nav ul li {
 }
 nav ul a {
   text-decoration: none;
-  /* color: white; */
+  color: white;
+}
+nav ul a:hover{
+  color: rgb(43, 97, 186);
+}
+.logo{
+color: white;
+}
+select,label{
+  font-size: 18px;
 }
 main {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   min-height: 100vh;
+  max-width: 80vw;
+  margin: auto;
 }
 footer{
     font-family: "Poppins", sans-serif;

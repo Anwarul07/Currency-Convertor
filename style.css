@@ -36,10 +36,13 @@ main {
   max-width: 80vw;
   margin: auto;
 }
-
+.output{
+  display: none;
+}
 .output table {
   width: 50vw;
   text-align: center;
+  margin-left: 40px;
 }
 footer {
   font-family: "Poppins", sans-serif;
